@@ -26,7 +26,7 @@ CLI ツールはどれも `npm i -g @lapius/<名前>` で入る（Linux / macOS 
 | [tssetup](https://github.com/Lapius7/tssetup) | `tssetup` | Bun + TypeScript のフロントエンド環境を 1 コマンドで構築（要 Python 3.9+） | Python | `npm i -g @lapius/tssetup` |
 | [go-uuid](https://github.com/Lapius7/go-uuid) | `go-uuid` | アクセスするたびに UUID (v1〜v7) を返す HTTP サーバー（[デモ](https://sandbox.lapius7.com/go-uuid/)） | Go | `npm i -g @lapius/go-uuid` |
 | [clilap-codepush](https://github.com/Lapius7/clilap-codepush) | `clilap-codepush` | [codepush.clilap.org](https://codepush.clilap.org) の TUI クライアント | Python | `pip install clilap-codepush` |
-| [cli-othello](https://github.com/Lapius7/cli-othello) | `cli-othello` | ターミナルで遊ぶオセロ。5 段階の AI と対戦 | Python | `pip install cli-othello` |
+| [cli-othello](https://github.com/Lapius7/cli-othello) | `othello` | ターミナルで遊ぶオセロ。5 段階の AI と対戦 | Python | `npm i -g @lapius/cli-othello` |
 
 ## Web サービス・サーバー
 
@@ -41,7 +41,6 @@ CLI ツールはどれも `npm i -g @lapius/<名前>` で入る（Linux / macOS 
 | リポジトリ | 説明 | 言語 |
 |---|---|---|
 | [portality](https://github.com/Lapius7/portality) | 開発者向けのポート / ネットワーク可視化 Windows アプリ（Tauri + React） | TypeScript |
-| [YTGrab](https://github.com/Lapius7/YTGrab) | YouTube の動画・音声を細かい設定でダウンロードできる GUI アプリ | Python |
 | [ohatwikeeper-extension](https://github.com/Lapius7/ohatwikeeper-extension) | おはツイKeeper のワンクリック登録・統計表示 Chrome 拡張（[紹介](https://ohatwikeeper.com/extensions/oneclick_add/)） | HTML |
 
 ## ライブラリ
@@ -55,7 +54,6 @@ CLI ツールはどれも `npm i -g @lapius/<名前>` で入る（Linux / macOS 
 
 | リポジトリ | 説明 | 言語 |
 |---|---|---|
-| [ts-othello](https://github.com/Lapius7/ts-othello) | TypeScript の勉強で作ったオセロ | TypeScript |
 | [lapius7.github.io](https://github.com/Lapius7/lapius7.github.io) | ポートフォリオサイト（[lapius7.github.io](https://lapius7.github.io)） | HTML |
 | [Lapius7](https://github.com/Lapius7/Lapius7) | GitHub プロフィールの README | — |
 | [repos](https://github.com/Lapius7/repos) | このページ | — |
@@ -64,5 +62,8 @@ CLI ツールはどれも `npm i -g @lapius/<名前>` で入る（Linux / macOS 
 
 | リポジトリ | 説明 |
 |---|---|
+| [YTGrab](https://github.com/Lapius7/YTGrab) | YouTube の動画・音声を細かい設定でダウンロードできる GUI アプリ（Python） |
+| [ts-othello](https://github.com/Lapius7/ts-othello) | TypeScript の勉強で作ったオセロ |
+| [YouTubeMusicModrenUI_connect_v2appLrcGenerator](https://github.com/Lapius7/YouTubeMusicModrenUI_connect_v2appLrcGenerator) | naikaku1 さんの YouTube Music Modern UI を LRC Generator に接続できるようにしたフォーク |
 | [pip.kmr1-shorten](https://github.com/Lapius7/pip.kmr1-shorten) | kmr1 API で URL を短縮する CLI |
 | [Aviutl-Valorant_CC](https://github.com/Lapius7/Aviutl-Valorant_CC) | AviUtl 用 VALORANT の色調補正（CC）設定 |
