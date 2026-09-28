@@ -27,6 +27,7 @@ CLI ツールはどれも `npm i -g @lapius/<名前>` で入る（Linux / macOS 
 | [go-uuid](https://github.com/Lapius7/go-uuid) | `go-uuid` | アクセスするたびに UUID (v1〜v7) を返す HTTP サーバー（[デモ](https://sandbox.lapius7.com/go-uuid/)） | Go | `npm i -g @lapius/go-uuid` |
 | [clilap-codepush](https://github.com/Lapius7/clilap-codepush) | `codepush` | [codepush.clilap.org](https://codepush.clilap.org) の TUI クライアント | Python | `npm i -g @lapius/clilap-codepush` |
 | [cli-othello](https://github.com/Lapius7/cli-othello) | `othello` | ターミナルで遊ぶオセロ。5 段階の AI と対戦 | Python | `npm i -g @lapius/cli-othello` |
+| [ytdlpdownloader](https://github.com/Lapius7/ytdlpdownloader) | `yd` | yt-dlp を fzf のメニューで操作する動画・音声・画像ダウンローダー（YouTube 以外も、gallery-dl 連携） | zsh | `npm i -g @lapius/ytdlpdownloader` |
 
 ## Web サービス・サーバー
 
