@@ -14,7 +14,7 @@ CLI ツールはどれも `npm i -g @lapius/<名前>` で入る（Linux / macOS 
 
 | リポジトリ | コマンド | 説明 | 言語 | インストール |
 |---|---|---|---|---|
-| [lapacks](https://github.com/Lapius7/lapacks) | `lapacks` | 上の @lapius パッケージをまとめて一覧・インストール・更新・削除する管理 CLI（TUI 付き） | Node.js | `npm i -g @lapius/lapacks` |
+| [lapacks](https://github.com/Lapius7/lapacks) | `lapacks` | @lapius の CLI ツール（下の表）をまとめて一覧・インストール・更新・削除する管理 CLI（TUI 付き） | Node.js | `npm i -g @lapius/lapacks` |
 | [why](https://github.com/Lapius7/why) | `why` | 失敗したコマンドの原因と対処法を日本語で表示する（オフライン・AI なし） | Go | `npm i -g @lapius/why` |
 | [bin-cli](https://github.com/Lapius7/bin-cli) | `bin` | [LapBin](https://bin.lapius7.com) のクライアント。Lapount でログインしてターミナルからコードを共有 | Go | `npm i -g @lapius/bin-cli` |
 | [ohatwikeeper-cli](https://github.com/Lapius7/ohatwikeeper-cli) | `ohax` | [おはツイKeeper](https://ohatwikeeper.com/cli) 公式 CLI。プロフィール・推移グラフ・アワードなどをフルカラーで表示 | Go | `npm i -g @lapius/ohatwikeeper-cli` |
