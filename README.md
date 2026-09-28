@@ -19,7 +19,6 @@ CLI ツールはどれも `npm i -g @lapius/<名前>` で入る（Linux / macOS 
 | [bin-cli](https://github.com/Lapius7/bin-cli) | `bin` | [LapBin](https://bin.lapius7.com) のクライアント。Lapount でログインしてターミナルからコードを共有 | Go | `npm i -g @lapius/bin-cli` |
 | [ohatwikeeper-cli](https://github.com/Lapius7/ohatwikeeper-cli) | `ohax` | [おはツイKeeper](https://ohatwikeeper.com/cli) 公式 CLI。プロフィール・推移グラフ・アワードなどをフルカラーで表示 | Go | `npm i -g @lapius/ohatwikeeper-cli` |
 | [sca-cli](https://github.com/Lapius7/sca-cli) | `sca` | supabase-chat-app のターミナルクライアント。ルーム作成・チャット・オンライン表示 | Go | `npm i -g @lapius/sca-cli` |
-| [dela-cli](https://github.com/Lapius7/dela-cli) | `dela` | ローカルのポートを `https://xxxx.deploy.lapius7.com` で即公開（自前の sish トンネル） | Go | `npm i -g @lapius/dela-cli` |
 | [clilap](https://github.com/Lapius7/clilap) | `clilap` | [clilap.org](https://clilap.org) のクライアント。天気・チートシート・DNS・ハッシュなどをターミナルから | Node.js | `npm i -g @lapius/clilap` |
 | [laping-lang](https://github.com/Lapius7/laping-lang) | `laping` | Laping (`.lp`) — C で実装した最小構成のプログラミング言語 | C | `npm i -g @lapius/laping-lang` |
 | [password-gl](https://github.com/Lapius7/password-gl) | `password-gl` `pgl` | 条件を細かく指定できるパスワード / パスフレーズ生成（要 Python 3.9+） | Python | `npm i -g @lapius/password-gl` |
