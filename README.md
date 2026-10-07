@@ -8,7 +8,6 @@ CLI ツールはどれも `npm i -g @lapius/<名前>` で入る（Linux / macOS 
 - [デスクトップアプリ・ブラウザ拡張](#デスクトップアプリブラウザ拡張)
 - [ライブラリ](#ライブラリ)
 - [その他](#その他)
-- [アーカイブ](#アーカイブ)
 
 ## CLI ツール
 
@@ -62,9 +61,3 @@ CLI ツールはどれも `npm i -g @lapius/<名前>` で入る（Linux / macOS 
 | [lapius7.github.io](https://github.com/Lapius7/lapius7.github.io) | ポートフォリオサイト（[lapius7.github.io](https://lapius7.github.io)） | HTML |
 | [Lapius7](https://github.com/Lapius7/Lapius7) | GitHub プロフィールの README | — |
 | [repos](https://github.com/Lapius7/repos) | このページ | — |
-
-## アーカイブ
-
-| リポジトリ | 説明 |
-|---|---|
-| [YouTubeMusicModrenUI_connect_v2appLrcGenerator](https://github.com/Lapius7/YouTubeMusicModrenUI_connect_v2appLrcGenerator) | naikaku1 さんの YouTube Music Modern UI を LRC Generator に接続できるようにしたフォーク |
