@@ -28,6 +28,8 @@ CLI ツールはどれも `npm i -g @lapius/<名前>` で入る（Linux / macOS 
 | [clilap-codepush](https://github.com/Lapius7/clilap-codepush) | `codepush` | [codepush.clilap.org](https://codepush.clilap.org) の TUI クライアント | Python | `npm i -g @lapius/clilap-codepush` |
 | [cli-othello](https://github.com/Lapius7/cli-othello) | `othello` | ターミナルで遊ぶオセロ。5 段階の AI と対戦 | Python | `npm i -g @lapius/cli-othello` |
 | [ytdlpdownloader](https://github.com/Lapius7/ytdlpdownloader) | `yd` | yt-dlp を fzf のメニューで操作する動画・音声・画像ダウンローダー（YouTube 以外も、gallery-dl 連携） | zsh | `npm i -g @lapius/ytdlpdownloader` |
+| [dela-cli](https://github.com/Lapius7/dela-cli) | `dela` | ローカルのポートを https://xxxx.deploy.lapius7.com で公開する CLI（自前の sish トンネル） | Go | `npm i -g @lapius/dela-cli` |
+| [repomix-auto](https://github.com/Lapius7/repomix-auto) | `repomix-auto` | Repomix のソースマップ生成を自動化する CLI（鮮度確認・config 作成・重いファイルの自動除外） | TypeScript | `npm i -g @lapius/repomix-auto` |
 
 ## Web サービス・サーバー
 
@@ -63,8 +65,4 @@ CLI ツールはどれも `npm i -g @lapius/<名前>` で入る（Linux / macOS 
 
 | リポジトリ | 説明 |
 |---|---|
-| [YTGrab](https://github.com/Lapius7/YTGrab) | YouTube の動画・音声を細かい設定でダウンロードできる GUI アプリ（Python） |
-| [ts-othello](https://github.com/Lapius7/ts-othello) | TypeScript の勉強で作ったオセロ |
 | [YouTubeMusicModrenUI_connect_v2appLrcGenerator](https://github.com/Lapius7/YouTubeMusicModrenUI_connect_v2appLrcGenerator) | naikaku1 さんの YouTube Music Modern UI を LRC Generator に接続できるようにしたフォーク |
-| [pip.kmr1-shorten](https://github.com/Lapius7/pip.kmr1-shorten) | kmr1 API で URL を短縮する CLI |
-| [Aviutl-Valorant_CC](https://github.com/Lapius7/Aviutl-Valorant_CC) | AviUtl 用 VALORANT の色調補正（CC）設定 |
