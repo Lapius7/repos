@@ -30,6 +30,7 @@ CLI ツールはどれも `pnpm add -g @lapius/<名前>` で入る（Linux / mac
 | [ytdlpdownloader](https://github.com/Lapius7/ytdlpdownloader) | `yd` | yt-dlp を fzf のメニューで操作する動画・音声・画像ダウンローダー（YouTube 以外も、gallery-dl 連携） | zsh | `pnpm add -g @lapius/ytdlpdownloader` |
 | [dela-cli](https://github.com/Lapius7/dela-cli) | `dela` | ローカルのポートを https://xxxx.deploy.lapius7.com で公開する CLI（自前の sish トンネル） | Go | `pnpm add -g @lapius/dela-cli` |
 | [repomix-auto](https://github.com/Lapius7/repomix-auto) | `repomix-auto` | Repomix のソースマップ生成を自動化する CLI（鮮度確認・config 作成・重いファイルの自動除外） | TypeScript | `pnpm add -g @lapius/repomix-auto` |
+| [x-archive-parser](https://github.com/Lapius7/x-archive-parser) | `x-archive-parser` | X（Twitter）のアーカイブを、コーディングエージェントが grep できる月別の Markdown / JSONL / CSV に変換する | TypeScript | `pnpm add -g @lapius/x-archive-parser` |
 
 ## Web サービス・サーバー
 
@@ -39,6 +40,14 @@ CLI ツールはどれも `pnpm add -g @lapius/<名前>` で入る（Linux / mac
 | [transit.lapius7.com](https://github.com/Lapius7/transit.lapius7.com) | Transit API を使った乗換案内 Web アプリ（[サイト](https://transit.lapius7.com)） | TypeScript |
 | [discordwidget-reloader](https://github.com/Lapius7/discordwidget-reloader) | Discord Profile Widgets v2 の同期待ち表示を回避する定期 PATCH コンテナ | Python |
 | [lapacks.lapius7.com](https://github.com/Lapius7/lapacks.lapius7.com) | @lapius パッケージ（lapacks で管理できる CLI）の使い方をまとめたドキュメントサイト。Markdown をパッケージごとのページとして表示（Next.js） | TypeScript |
+| [md-publisher-api](https://github.com/Lapius7/md-publisher-api) | Markdown を API で送ると、URL を知る人だけが読めるページにするサービス | TypeScript |
+| [discord-messageapi-bot](https://github.com/Lapius7/discord-messageapi-bot) | Discord のチャンネルに投稿された本文と画像を保存し、チャンネル専用のキーで取り出せるようにする Bot | TypeScript |
+| [diserverbuilder-mcp](https://github.com/Lapius7/diserverbuilder-mcp) | AI アシスタント（Claude など）が、自分の Bot 経由で Discord サーバー（カテゴリ・チャンネル・ロール・権限）を組み立て直せる MCP サーバー | TypeScript |
+| [gh.lapius7.com](https://github.com/Lapius7/gh.lapius7.com) | GitHub の活動ダッシュボード。依存なしの Node.js サーバーが GraphQL の統計をキャッシュして返す（[サイト](https://gh.lapius7.com)） | JavaScript |
+| [img-parameter.wks.lapius7.com](https://github.com/Lapius7/img-parameter.wks.lapius7.com) | URL パラメータで画像のリサイズ・切り抜き・回転・角丸・形式変換ができる Cloudflare Workers の API（[サイト](https://img-parameter.wks.lapius7.com)） | TypeScript |
+| [r-place-readme](https://github.com/Lapius7/r-place-readme) | みんなで描く共有ピクセルキャンバスの README。画像のマスをクリックして色を切り替える（[サイト](https://r-place-readme.wks.lapius7.com)） | TypeScript |
+| [ramen.lapius7.com](https://github.com/Lapius7/ramen.lapius7.com) | ラーメン図鑑 | TypeScript |
+| [lapius7.si](https://github.com/Lapius7/lapius7.si) | lapius7.si のランディングページ（[サイト](https://lapius7.si)） | TypeScript |
 
 ## デスクトップアプリ・ブラウザ拡張
 
@@ -47,6 +56,12 @@ CLI ツールはどれも `pnpm add -g @lapius/<名前>` で入る（Linux / mac
 | [portality](https://github.com/Lapius7/portality) | 開発者向けのポート / ネットワーク可視化 Windows アプリ（Tauri + React） | TypeScript |
 | [coucou-repatch](https://github.com/Lapius7/coucou-repatch) | [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) の Windows / WSL 向けフォーク。Claude Code の作業（権限確認・編集差分・プラン上限）を画面上の小さな島で見守る（Tauri） | TypeScript |
 | [ohatwikeeper-extension](https://github.com/Lapius7/ohatwikeeper-extension) | おはツイKeeper のワンクリック登録・統計表示 Chrome 拡張（[紹介](https://ohatwikeeper.com/extensions/oneclick_add/)） | HTML |
+| [fixit-editor](https://github.com/Lapius7/fixit-editor) | 軽くて磨りガラス調のコードエディタ Fixit Editor（Tauri + React。[サイト](https://fixit-editor.lapius7.com)） | TypeScript |
+| [dracon](https://github.com/Lapius7/dracon) | Windows 向けのファイル変換アプリ（Tauri + React + ffmpeg） | TypeScript |
+| [lightcapturex](https://github.com/Lapius7/lightcapturex) | Windows 向けの超軽量ゲームレコーダー（GPU のハードウェアエンコード） | Rust |
+| [valorant-matchfound](https://github.com/Lapius7/valorant-matchfound) | VALORANT のマッチ成立を Discord の DM で知らせる Windows トレイアプリ。モード・マップ・味方のエージェント選択を更新し続ける | Rust |
+| [x-nomoretracking](https://github.com/Lapius7/x-nomoretracking) | X の「リンクをコピー」で付く s・t・a などの追跡パラメータを取り除く Chrome / Edge 拡張機能 | JavaScript |
+| [TampermonkeyScripts](https://github.com/Lapius7/TampermonkeyScripts) | Tampermonkey の自作ユーザースクリプトの置き場。fx○.lapius7.com 版の URL コピーなど | JavaScript |
 
 ## ライブラリ
 
@@ -60,5 +75,7 @@ CLI ツールはどれも `pnpm add -g @lapius/<名前>` で入る（Linux / mac
 | リポジトリ | 説明 | 言語 |
 |---|---|---|
 | [lapius7.github.io](https://github.com/Lapius7/lapius7.github.io) | ポートフォリオサイト（[lapius7.github.io](https://lapius7.github.io)） | HTML |
+| [swarm-build-skill](https://github.com/Lapius7/swarm-build-skill) | 色違いのカーソルが群れでページを組み上げていく動画を Remotion で作る Claude Code 用スキル | TypeScript |
+| [workerstest.wks.lapius7.com](https://github.com/Lapius7/workerstest.wks.lapius7.com) | Cloudflare Workers の動作確認用プロジェクト | TypeScript |
 | [Lapius7](https://github.com/Lapius7/Lapius7) | GitHub プロフィールの README | — |
 | [repos](https://github.com/Lapius7/repos) | このページ | — |
