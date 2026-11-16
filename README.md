@@ -57,6 +57,7 @@ CLI ツールはどれも `pnpm add -g @lapius/<名前>` で入る（Linux / mac
 | [coucou-repatch](https://github.com/Lapius7/coucou-repatch) | [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) の Windows / WSL 向けフォーク。Claude Code の作業（権限確認・編集差分・プラン上限）を画面上の小さな島で見守る（Tauri） | TypeScript |
 | [ohatwikeeper-extension](https://github.com/Lapius7/ohatwikeeper-extension) | おはツイKeeper のワンクリック登録・統計表示 Chrome 拡張（[紹介](https://ohatwikeeper.com/extensions/oneclick_add/)） | HTML |
 | [fixit-editor](https://github.com/Lapius7/fixit-editor) | 軽くて磨りガラス調のコードエディタ Fixit Editor（Tauri + React。[サイト](https://fixit-editor.lapius7.com)） | TypeScript |
+| [fixiteditor-bgimgchanger](https://github.com/Lapius7/fixiteditor-bgimgchanger) | Fixit Editor の拡張機能。設定画面から背景画像・不透明度・ぼかし・表示方法を変えられる | JavaScript |
 | [dracon](https://github.com/Lapius7/dracon) | Windows 向けのファイル変換アプリ（Tauri + React + ffmpeg） | TypeScript |
 | [lightcapturex](https://github.com/Lapius7/lightcapturex) | Windows 向けの超軽量ゲームレコーダー（GPU のハードウェアエンコード） | Rust |
 | [valorant-matchfound](https://github.com/Lapius7/valorant-matchfound) | VALORANT のマッチ成立を Discord の DM で知らせる Windows トレイアプリ。モード・マップ・味方のエージェント選択を更新し続ける | Rust |
