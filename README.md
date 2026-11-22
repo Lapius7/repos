@@ -1,82 +1,105 @@
-# Lapius7 のリポジトリ一覧
+<div align="center">
 
-[Lapius7](https://github.com/Lapius7) の公開リポジトリのまとめ。
-CLI ツールはどれも `pnpm add -g @lapius/<名前>` で入る（Linux / macOS / Windows）。
+<p align="center">
+  <img src="docs/images/banner.png" alt="Lapius7 Repositories" width="100%">
+</p>
 
-- [CLI ツール](#cli-ツール)
-- [Web サービス・サーバー](#web-サービスサーバー)
-- [デスクトップアプリ・ブラウザ拡張](#デスクトップアプリブラウザ拡張)
-- [ライブラリ](#ライブラリ)
-- [その他](#その他)
+<p align="center"><b>English</b> | <a href="README.ja.md">日本語</a></p>
 
-## CLI ツール
+<h1 align="center">Lapius7 Repositories</h1>
 
-| リポジトリ | コマンド | 説明 | 言語 | インストール |
+<h3 align="center">A list of my public repositories.</h3>
+
+<p align="center">A summary of the public repositories of <a href="https://github.com/Lapius7">Lapius7</a>. Every CLI tool installs with <code>pnpm add -g @lapius/&lt;name&gt;</code> (Linux / macOS / Windows).</p>
+
+<p align="center">
+  <a href="https://github.com/Lapius7"><img alt="Profile" src="https://img.shields.io/badge/GitHub-Lapius7-181717?style=flat-square&logo=github"></a>
+  <a href="https://github.com/Lapius7/repos/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/Lapius7/repos?style=flat-square&color=3b82f6"></a>
+</p>
+
+<p align="center">
+  <a href="#cli-tools">CLI tools</a> ·
+  <a href="#web-services-and-servers">Web services</a> ·
+  <a href="#desktop-apps-and-browser-extensions">Desktop apps</a> ·
+  <a href="#libraries">Libraries</a> ·
+  <a href="#other">Other</a>
+</p>
+
+</div>
+
+---
+
+## CLI tools
+
+| Repository | Command | Description | Language | Install |
 |---|---|---|---|---|
-| [lapacks](https://github.com/Lapius7/lapacks) | `lapacks` | @lapius の CLI ツール（下の表）をまとめて一覧・インストール・更新・削除する管理 CLI（TUI 付き） | Node.js | `pnpm add -g @lapius/lapacks` |
-| [why](https://github.com/Lapius7/why) | `why` | 失敗したコマンドの原因と対処法を日本語で表示する（オフライン・AI なし） | Go | `pnpm add -g @lapius/why` |
-| [ui-cli](https://github.com/Lapius7/ui-cli) | `ui` | [shadcn.lapius7.com](https://shadcn.lapius7.com) のコンポーネントを shadcn CLI 経由で入れる | TypeScript | `pnpm dlx @lapius/ui add <名前>` |
-| [bin-cli](https://github.com/Lapius7/bin-cli) | `bin` | [LapBin](https://bin.lapius7.com) のクライアント。Lapount でログインしてターミナルからコードを共有 | Go | `pnpm add -g @lapius/bin-cli` |
-| [ohatwikeeper-cli](https://github.com/Lapius7/ohatwikeeper-cli) | `ohax` | [おはツイKeeper](https://ohatwikeeper.com/cli) 公式 CLI。プロフィール・推移グラフ・アワードなどをフルカラーで表示 | Go | `pnpm add -g @lapius/ohatwikeeper-cli` |
-| [sca-cli](https://github.com/Lapius7/sca-cli) | `sca` | supabase-chat-app のターミナルクライアント。ルーム作成・チャット・オンライン表示 | Go | `pnpm add -g @lapius/sca-cli` |
-| [clilap](https://github.com/Lapius7/clilap) | `clilap` | [clilap.org](https://clilap.org) のクライアント。天気・チートシート・DNS・ハッシュなどをターミナルから | Node.js | `pnpm add -g @lapius/clilap` |
-| [laping-lang](https://github.com/Lapius7/laping-lang) | `laping` | Laping (`.lp`) — C で実装した最小構成のプログラミング言語 | C | `pnpm add -g @lapius/laping-lang` |
-| [password-gl](https://github.com/Lapius7/password-gl) | `password-gl` `pgl` | 条件を細かく指定できるパスワード / パスフレーズ生成（要 Python 3.9+） | Python | `pnpm add -g @lapius/password-gl` |
-| [tsbuild](https://github.com/Lapius7/tsbuild) | `tsbuild` | Bun + TypeScript の開発サーバーをホットリロード付きで 1 コマンド起動（要 Python 3.9+） | Python | `pnpm add -g @lapius/tsbuild` |
-| [tssetup](https://github.com/Lapius7/tssetup) | `tssetup` | Bun + TypeScript のフロントエンド環境を 1 コマンドで構築（要 Python 3.9+） | Python | `pnpm add -g @lapius/tssetup` |
-| [go-uuid](https://github.com/Lapius7/go-uuid) | `go-uuid` | アクセスするたびに UUID (v1〜v7) を返す HTTP サーバー（[デモ](https://sandbox.lapius7.com/go-uuid/)） | Go | `pnpm add -g @lapius/go-uuid` |
-| [clilap-codepush](https://github.com/Lapius7/clilap-codepush) | `codepush` | [codepush.clilap.org](https://codepush.clilap.org) の TUI クライアント | Python | `pnpm add -g @lapius/clilap-codepush` |
-| [cli-othello](https://github.com/Lapius7/cli-othello) | `othello` | ターミナルで遊ぶオセロ。5 段階の AI と対戦 | Python | `pnpm add -g @lapius/cli-othello` |
-| [ytdlpdownloader](https://github.com/Lapius7/ytdlpdownloader) | `yd` | yt-dlp を fzf のメニューで操作する動画・音声・画像ダウンローダー（YouTube 以外も、gallery-dl 連携） | zsh | `pnpm add -g @lapius/ytdlpdownloader` |
-| [dela-cli](https://github.com/Lapius7/dela-cli) | `dela` | ローカルのポートを https://xxxx.deploy.lapius7.com で公開する CLI（自前の sish トンネル） | Go | `pnpm add -g @lapius/dela-cli` |
-| [repomix-auto](https://github.com/Lapius7/repomix-auto) | `repomix-auto` | Repomix のソースマップ生成を自動化する CLI（鮮度確認・config 作成・重いファイルの自動除外） | TypeScript | `pnpm add -g @lapius/repomix-auto` |
-| [x-archive-parser](https://github.com/Lapius7/x-archive-parser) | `x-archive-parser` | X（Twitter）のアーカイブを、コーディングエージェントが grep できる月別の Markdown / JSONL / CSV に変換する | TypeScript | `pnpm add -g @lapius/x-archive-parser` |
+| [lapacks](https://github.com/Lapius7/lapacks) | `lapacks` | A management CLI (with a TUI) that lists, installs, updates, and removes the @lapius CLI tools in the table below | Node.js | `pnpm add -g @lapius/lapacks` |
+| [why](https://github.com/Lapius7/why) | `why` | Shows the cause and a fix for a failed command, in Japanese (offline, no AI) | Go | `pnpm add -g @lapius/why` |
+| [ui-cli](https://github.com/Lapius7/ui-cli) | `ui` | Installs components from [shadcn.lapius7.com](https://shadcn.lapius7.com) through the shadcn CLI | TypeScript | `pnpm dlx @lapius/ui add <name>` |
+| [bin-cli](https://github.com/Lapius7/bin-cli) | `bin` | Client for [LapBin](https://bin.lapius7.com). Log in with Lapount and share code from the terminal | Go | `pnpm add -g @lapius/bin-cli` |
+| [ohatwikeeper-cli](https://github.com/ohatwikeeper/ohatwikeeper-cli) | `ohax` | Official CLI for [おはツイKeeper](https://ohatwikeeper.com/cli). Shows profiles, trend graphs, awards, and more in full color | Go | `pnpm add -g @ohatwikeeper/cli` |
+| [sca-cli](https://github.com/Lapius7/sca-cli) | `sca` | Terminal client for supabase-chat-app. Create rooms, chat, and see who is online | Go | `pnpm add -g @lapius/sca-cli` |
+| [clilap](https://github.com/Lapius7/clilap) | `clilap` | Client for [clilap.org](https://clilap.org). Weather, cheat sheets, DNS, hashes, and more from the terminal | Node.js | `pnpm add -g @lapius/clilap` |
+| [laping-lang](https://github.com/Lapius7/laping-lang) | `laping` | Laping (`.lp`): a minimal programming language implemented in C | C | `pnpm add -g @lapius/laping-lang` |
+| [password-gl](https://github.com/Lapius7/password-gl) | `password-gl` `pgl` | Password / passphrase generator with fine-grained conditions (needs Python 3.9+) | Python | `pnpm add -g @lapius/password-gl` |
+| [tsbuild](https://github.com/Lapius7/tsbuild) | `tsbuild` | Starts a Bun + TypeScript dev server with hot reload in one command (needs Python 3.9+) | Python | `pnpm add -g @lapius/tsbuild` |
+| [tssetup](https://github.com/Lapius7/tssetup) | `tssetup` | Sets up a Bun + TypeScript frontend environment in one command (needs Python 3.9+) | Python | `pnpm add -g @lapius/tssetup` |
+| [go-uuid](https://github.com/Lapius7/go-uuid) | `go-uuid` | An HTTP server that returns a UUID (v1 to v7) on every request ([demo](https://sandbox.lapius7.com/go-uuid/)) | Go | `pnpm add -g @lapius/go-uuid` |
+| [clilap-codepush](https://github.com/Lapius7/clilap-codepush) | `codepush` | TUI client for [codepush.clilap.org](https://codepush.clilap.org) | Python | `pnpm add -g @lapius/clilap-codepush` |
+| [cli-othello](https://github.com/Lapius7/cli-othello) | `othello` | Othello in the terminal. Play against an AI with 5 levels | Python | `pnpm add -g @lapius/cli-othello` |
+| [ytdlpdownloader](https://github.com/Lapius7/ytdlpdownloader) | `yd` | A video, audio, and image downloader that drives yt-dlp from an fzf menu (also non-YouTube sites, with gallery-dl integration) | zsh | `pnpm add -g @lapius/ytdlpdownloader` |
+| [dela-cli](https://github.com/Lapius7/dela-cli) | `dela` | A CLI that publishes a local port at https://xxxx.deploy.lapius7.com (own sish tunnel) | Go | `pnpm add -g @lapius/dela-cli` |
+| [repomix-auto](https://github.com/Lapius7/repomix-auto) | `repomix-auto` | A CLI that automates Repomix source map generation (freshness check, config creation, automatic exclusion of heavy files) | JavaScript | `pnpm add -g @lapius/repomix-auto` |
+| [x-archive-parser](https://github.com/Lapius7/x-archive-parser) | `x-archive-parser` | Converts an X (Twitter) archive into monthly Markdown / JSONL / CSV that a coding agent can grep | TypeScript | `pnpm add -g @lapius/x-archive-parser` |
 
-## Web サービス・サーバー
+## Web services and servers
 
-| リポジトリ | 説明 | 言語 |
+| Repository | Description | Language |
 |---|---|---|
-| [clilap](https://github.com/Lapius7/clilap) | `curl clilap.org` で使える開発者向けツール集（天気・チートシート・GitHub・IP・DNS・WHOIS・UUID・Base64 など） | Python |
-| [transit.lapius7.com](https://github.com/Lapius7/transit.lapius7.com) | Transit API を使った乗換案内 Web アプリ（[サイト](https://transit.lapius7.com)） | TypeScript |
-| [discordwidget-reloader](https://github.com/Lapius7/discordwidget-reloader) | Discord Profile Widgets v2 の同期待ち表示を回避する定期 PATCH コンテナ | Python |
-| [lapacks.lapius7.com](https://github.com/Lapius7/lapacks.lapius7.com) | @lapius パッケージ（lapacks で管理できる CLI）の使い方をまとめたドキュメントサイト。Markdown をパッケージごとのページとして表示（Next.js） | TypeScript |
-| [md-publisher-api](https://github.com/Lapius7/md-publisher-api) | Markdown を API で送ると、URL を知る人だけが読めるページにするサービス | TypeScript |
-| [discord-messageapi-bot](https://github.com/Lapius7/discord-messageapi-bot) | Discord のチャンネルに投稿された本文と画像を保存し、チャンネル専用のキーで取り出せるようにする Bot | TypeScript |
-| [diserverbuilder-mcp](https://github.com/Lapius7/diserverbuilder-mcp) | AI アシスタント（Claude など）が、自分の Bot 経由で Discord サーバー（カテゴリ・チャンネル・ロール・権限）を組み立て直せる MCP サーバー | TypeScript |
-| [gh.lapius7.com](https://github.com/Lapius7/gh.lapius7.com) | GitHub の活動ダッシュボード。依存なしの Node.js サーバーが GraphQL の統計をキャッシュして返す（[サイト](https://gh.lapius7.com)） | JavaScript |
-| [img-parameter.wks.lapius7.com](https://github.com/Lapius7/img-parameter.wks.lapius7.com) | URL パラメータで画像のリサイズ・切り抜き・回転・角丸・形式変換ができる Cloudflare Workers の API（[サイト](https://img-parameter.wks.lapius7.com)） | TypeScript |
-| [r-place-readme](https://github.com/Lapius7/r-place-readme) | みんなで描く共有ピクセルキャンバスの README。画像のマスをクリックして色を切り替える（[サイト](https://r-place-readme.wks.lapius7.com)） | TypeScript |
-| [ramen.lapius7.com](https://github.com/Lapius7/ramen.lapius7.com) | ラーメン図鑑 | TypeScript |
-| [lapius7.si](https://github.com/Lapius7/lapius7.si) | lapius7.si のランディングページ（[サイト](https://lapius7.si)） | TypeScript |
+| [clilap](https://github.com/Lapius7/clilap) | Developer tools you can use with `curl clilap.org` (weather, cheat sheets, GitHub, IP, DNS, WHOIS, UUID, Base64, and more) | Python |
+| [transit.lapius7.com](https://github.com/Lapius7/transit.lapius7.com) | A route search web app that uses the Transit API ([site](https://transit.lapius7.com)) | TypeScript |
+| [discordwidget-reloader](https://github.com/Lapius7/discordwidget-reloader) | A container that sends periodic PATCH requests to avoid the "waiting to sync" display of Discord Profile Widgets v2 | Python |
+| [lapacks.lapius7.com](https://github.com/Lapius7/lapacks.lapius7.com) | A documentation site for the @lapius packages (the CLIs lapacks manages). It shows Markdown as one page per package (Next.js) | TypeScript |
+| [md-publisher-api](https://github.com/Lapius7/md-publisher-api) | A service that turns Markdown sent through an API into a page only people who know the URL can read | TypeScript |
+| [discord-messageapi-bot](https://github.com/Lapius7/discord-messageapi-bot) | A bot that saves the text and images posted to a Discord channel and returns them with a per-channel key | TypeScript |
+| [diserverbuilder-mcp](https://github.com/Lapius7/diserverbuilder-mcp) | An MCP server that lets an AI assistant (Claude and others) rebuild a Discord server (categories, channels, roles, permissions) through your own bot | TypeScript |
+| [gh.lapius7.com](https://github.com/Lapius7/gh.lapius7.com) | A GitHub activity dashboard. A dependency-free Node.js server caches GraphQL statistics and serves them ([site](https://gh.lapius7.com)) | JavaScript |
+| [img-parameter.wks.lapius7.com](https://github.com/Lapius7/img-parameter.wks.lapius7.com) | A Cloudflare Workers API that resizes, crops, rotates, rounds, and converts images with URL parameters ([site](https://img-parameter.wks.lapius7.com)) | TypeScript |
+| [r-place-readme](https://github.com/Lapius7/r-place-readme) | A README with a shared pixel canvas everyone draws on. Click a cell of the image to change its color ([site](https://r-place-readme.wks.lapius7.com)) | TypeScript |
+| [ramen.lapius7.com](https://github.com/Lapius7/ramen.lapius7.com) | A ramen encyclopedia | TypeScript |
+| [lapius7.si](https://github.com/Lapius7/lapius7.si) | Landing page for lapius7.si ([site](https://lapius7.si)) | TypeScript |
 
-## デスクトップアプリ・ブラウザ拡張
+## Desktop apps and browser extensions
 
-| リポジトリ | 説明 | 言語 |
+| Repository | Description | Language |
 |---|---|---|
-| [portality](https://github.com/Lapius7/portality) | 開発者向けのポート / ネットワーク可視化 Windows アプリ（Tauri + React） | TypeScript |
-| [coucou-repatch](https://github.com/Lapius7/coucou-repatch) | [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) の Windows / WSL 向けフォーク。Claude Code の作業（権限確認・編集差分・プラン上限）を画面上の小さな島で見守る（Tauri） | TypeScript |
-| [ohatwikeeper-extension](https://github.com/Lapius7/ohatwikeeper-extension) | おはツイKeeper のワンクリック登録・統計表示 Chrome 拡張（[紹介](https://ohatwikeeper.com/extensions/oneclick_add/)） | HTML |
-| [fixit-editor](https://github.com/Lapius7/fixit-editor) | 軽くて磨りガラス調のコードエディタ Fixit Editor（Tauri + React。[サイト](https://fixit-editor.lapius7.com)） | TypeScript |
-| [fixiteditor-bgimgchanger](https://github.com/Lapius7/fixiteditor-bgimgchanger) | Fixit Editor の拡張機能。設定画面から背景画像・不透明度・ぼかし・表示方法を変えられる | JavaScript |
-| [dracon](https://github.com/Lapius7/dracon) | Windows 向けのファイル変換アプリ（Tauri + React + ffmpeg） | TypeScript |
-| [lightcapturex](https://github.com/Lapius7/lightcapturex) | Windows 向けの超軽量ゲームレコーダー（GPU のハードウェアエンコード） | Rust |
-| [valorant-matchfound](https://github.com/Lapius7/valorant-matchfound) | VALORANT のマッチ成立を Discord の DM で知らせる Windows トレイアプリ。モード・マップ・味方のエージェント選択を更新し続ける | Rust |
-| [x-nomoretracking](https://github.com/Lapius7/x-nomoretracking) | X の「リンクをコピー」で付く s・t・a などの追跡パラメータを取り除く Chrome / Edge 拡張機能 | JavaScript |
-| [TampermonkeyScripts](https://github.com/Lapius7/TampermonkeyScripts) | Tampermonkey の自作ユーザースクリプトの置き場。fx○.lapius7.com 版の URL コピーなど | JavaScript |
+| [portality](https://github.com/Lapius7/portality) | A Windows app that visualizes ports and the network for developers (Tauri + React) | TypeScript |
+| [coucou-repatch](https://github.com/Lapius7/coucou-repatch) | A fork of [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) for Windows / WSL. A small on-screen island that watches Claude Code work (permission prompts, edit diffs, plan limits) (Tauri) | TypeScript |
+| [ohatwikeeper-extension](https://github.com/ohatwikeeper/ohatwikeeper-extension) | A Chrome extension for one-click registration and stats display for おはツイKeeper ([intro](https://ohatwikeeper.com/extensions/oneclick_add/)) | HTML |
+| [fixit-editor](https://github.com/Lapius7/fixit-editor) | Fixit Editor, a light code editor with a frosted-glass look (Tauri + React. [site](https://fixit-editor.lapius7.com)) | TypeScript |
+| [fixiteditor-bgimgchanger](https://github.com/Lapius7/fixiteditor-bgimgchanger) | An extension for Fixit Editor. Change the background image, opacity, blur, and display mode from the settings screen | JavaScript |
+| [dracon](https://github.com/Lapius7/dracon) | A file conversion app for Windows (Tauri + React + ffmpeg) | TypeScript |
+| [lightcapturex](https://github.com/Lapius7/lightcapturex) | An ultra-light game recorder for Windows (GPU hardware encoding) | Rust |
+| [valorant-matchfound](https://github.com/Lapius7/valorant-matchfound) | A Windows tray app that tells you through a Discord DM when a VALORANT match is found. It keeps updating the mode, map, and teammates' agent picks | Rust |
+| [x-nomoretracking](https://github.com/Lapius7/x-nomoretracking) | A Chrome / Edge extension that removes tracking parameters such as s, t, and a added by "Copy link" on X | JavaScript |
+| [TampermonkeyScripts](https://github.com/Lapius7/TampermonkeyScripts) | A place for my own Tampermonkey user scripts, such as the URL copy for fx○.lapius7.com | JavaScript |
 
-## ライブラリ
+## Libraries
 
-| リポジトリ | 説明 | 言語 | インストール |
+| Repository | Description | Language | Install |
 |---|---|---|---|
-| [nixparse](https://github.com/Lapius7/nixparse) | `ps` `df` `du` `free` `lsof` `ip` `ss` などの出力を型安全にパース（Zod で実行時検証） | TypeScript | `npm i nixparse` |
-| [go-rataliy_lib](https://github.com/Lapius7/go-rataliy_lib) | Go の HTTP レート制限（トークンバケット・スライディング / 固定ウィンドウ、net/http ミドルウェア付き、依存なし） | Go | `go get github.com/Lapius7/go-rataliy_lib` |
+| [nixparse](https://github.com/Lapius7/nixparse) | Type-safe parsing of the output of `ps`, `df`, `du`, `free`, `lsof`, `ip`, `ss`, and more (runtime validation with Zod) | TypeScript | `npm i nixparse` |
+| [go-rataliy_lib](https://github.com/Lapius7/go-rataliy_lib) | HTTP rate limiting for Go (token bucket, sliding / fixed window, net/http middleware, no dependencies) | Go | `go get github.com/Lapius7/go-rataliy_lib` |
 
-## その他
+## Other
 
-| リポジトリ | 説明 | 言語 |
+| Repository | Description | Language |
 |---|---|---|
-| [lapius7.github.io](https://github.com/Lapius7/lapius7.github.io) | ポートフォリオサイト（[lapius7.github.io](https://lapius7.github.io)） | HTML |
-| [swarm-build-skill](https://github.com/Lapius7/swarm-build-skill) | 色違いのカーソルが群れでページを組み上げていく動画を Remotion で作る Claude Code 用スキル | TypeScript |
-| [workerstest.wks.lapius7.com](https://github.com/Lapius7/workerstest.wks.lapius7.com) | Cloudflare Workers の動作確認用プロジェクト | TypeScript |
-| [Lapius7](https://github.com/Lapius7/Lapius7) | GitHub プロフィールの README | — |
-| [repos](https://github.com/Lapius7/repos) | このページ | — |
+| [lapius7.github.io](https://github.com/Lapius7/lapius7.github.io) | Portfolio site ([lapius7.github.io](https://lapius7.github.io)) | HTML |
+| [swarm-build-skill](https://github.com/Lapius7/swarm-build-skill) | A Claude Code skill that makes, with Remotion, a video in which a swarm of colored cursors builds a page | TypeScript |
+| [workerstest.wks.lapius7.com](https://github.com/Lapius7/workerstest.wks.lapius7.com) | A project for checking Cloudflare Workers | TypeScript |
+| [Lapius7](https://github.com/Lapius7/Lapius7) | The GitHub profile README | — |
+| [repos](https://github.com/Lapius7/repos) | This page | — |
+
+> [!NOTE]
+> This list is a rewrite of the table in the previous README. It was not checked against the current state of each repository.
