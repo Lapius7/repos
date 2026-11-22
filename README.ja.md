@@ -37,7 +37,7 @@
 | [why](https://github.com/Lapius7/why) | `why` | 失敗したコマンドの原因と対処法を日本語で表示する（オフライン・AI なし） | Go | `pnpm add -g @lapius/why` |
 | [ui-cli](https://github.com/Lapius7/ui-cli) | `ui` | [shadcn.lapius7.com](https://shadcn.lapius7.com) のコンポーネントを shadcn CLI 経由で入れる | TypeScript | `pnpm dlx @lapius/ui add <名前>` |
 | [bin-cli](https://github.com/Lapius7/bin-cli) | `bin` | [LapBin](https://bin.lapius7.com) のクライアント。Lapount でログインしてターミナルからコードを共有 | Go | `pnpm add -g @lapius/bin-cli` |
-| [ohatwikeeper-cli](https://github.com/Lapius7/ohatwikeeper-cli) | `ohax` | [おはツイKeeper](https://ohatwikeeper.com/cli) 公式 CLI。プロフィール・推移グラフ・アワードなどをフルカラーで表示 | Go | `pnpm add -g @lapius/ohatwikeeper-cli` |
+| [ohatwikeeper-cli](https://github.com/ohatwikeeper/ohatwikeeper-cli) | `ohax` | [おはツイKeeper](https://ohatwikeeper.com/cli) 公式 CLI。プロフィール・推移グラフ・アワードなどをフルカラーで表示 | Go | `pnpm add -g @ohatwikeeper/cli` |
 | [sca-cli](https://github.com/Lapius7/sca-cli) | `sca` | supabase-chat-app のターミナルクライアント。ルーム作成・チャット・オンライン表示 | Go | `pnpm add -g @lapius/sca-cli` |
 | [clilap](https://github.com/Lapius7/clilap) | `clilap` | [clilap.org](https://clilap.org) のクライアント。天気・チートシート・DNS・ハッシュなどをターミナルから | Node.js | `pnpm add -g @lapius/clilap` |
 | [laping-lang](https://github.com/Lapius7/laping-lang) | `laping` | Laping (`.lp`) — C で実装した最小構成のプログラミング言語 | C | `pnpm add -g @lapius/laping-lang` |
@@ -49,7 +49,7 @@
 | [cli-othello](https://github.com/Lapius7/cli-othello) | `othello` | ターミナルで遊ぶオセロ。5 段階の AI と対戦 | Python | `pnpm add -g @lapius/cli-othello` |
 | [ytdlpdownloader](https://github.com/Lapius7/ytdlpdownloader) | `yd` | yt-dlp を fzf のメニューで操作する動画・音声・画像ダウンローダー（YouTube 以外も、gallery-dl 連携） | zsh | `pnpm add -g @lapius/ytdlpdownloader` |
 | [dela-cli](https://github.com/Lapius7/dela-cli) | `dela` | ローカルのポートを https://xxxx.deploy.lapius7.com で公開する CLI（自前の sish トンネル） | Go | `pnpm add -g @lapius/dela-cli` |
-| [repomix-auto](https://github.com/Lapius7/repomix-auto) | `repomix-auto` | Repomix のソースマップ生成を自動化する CLI（鮮度確認・config 作成・重いファイルの自動除外） | TypeScript | `pnpm add -g @lapius/repomix-auto` |
+| [repomix-auto](https://github.com/Lapius7/repomix-auto) | `repomix-auto` | Repomix のソースマップ生成を自動化する CLI（鮮度確認・config 作成・重いファイルの自動除外） | JavaScript | `pnpm add -g @lapius/repomix-auto` |
 | [x-archive-parser](https://github.com/Lapius7/x-archive-parser) | `x-archive-parser` | X（Twitter）のアーカイブを、コーディングエージェントが grep できる月別の Markdown / JSONL / CSV に変換する | TypeScript | `pnpm add -g @lapius/x-archive-parser` |
 
 ## Web サービス・サーバー
@@ -75,7 +75,7 @@
 |---|---|---|
 | [portality](https://github.com/Lapius7/portality) | 開発者向けのポート / ネットワーク可視化 Windows アプリ（Tauri + React） | TypeScript |
 | [coucou-repatch](https://github.com/Lapius7/coucou-repatch) | [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) の Windows / WSL 向けフォーク。Claude Code の作業（権限確認・編集差分・プラン上限）を画面上の小さな島で見守る（Tauri） | TypeScript |
-| [ohatwikeeper-extension](https://github.com/Lapius7/ohatwikeeper-extension) | おはツイKeeper のワンクリック登録・統計表示 Chrome 拡張（[紹介](https://ohatwikeeper.com/extensions/oneclick_add/)） | HTML |
+| [ohatwikeeper-extension](https://github.com/ohatwikeeper/ohatwikeeper-extension) | おはツイKeeper のワンクリック登録・統計表示 Chrome 拡張（[紹介](https://ohatwikeeper.com/extensions/oneclick_add/)） | HTML |
 | [fixit-editor](https://github.com/Lapius7/fixit-editor) | 軽くて磨りガラス調のコードエディタ Fixit Editor（Tauri + React。[サイト](https://fixit-editor.lapius7.com)） | TypeScript |
 | [fixiteditor-bgimgchanger](https://github.com/Lapius7/fixiteditor-bgimgchanger) | Fixit Editor の拡張機能。設定画面から背景画像・不透明度・ぼかし・表示方法を変えられる | JavaScript |
 | [dracon](https://github.com/Lapius7/dracon) | Windows 向けのファイル変換アプリ（Tauri + React + ffmpeg） | TypeScript |

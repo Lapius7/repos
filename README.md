@@ -37,7 +37,7 @@
 | [why](https://github.com/Lapius7/why) | `why` | Shows the cause and a fix for a failed command, in Japanese (offline, no AI) | Go | `pnpm add -g @lapius/why` |
 | [ui-cli](https://github.com/Lapius7/ui-cli) | `ui` | Installs components from [shadcn.lapius7.com](https://shadcn.lapius7.com) through the shadcn CLI | TypeScript | `pnpm dlx @lapius/ui add <name>` |
 | [bin-cli](https://github.com/Lapius7/bin-cli) | `bin` | Client for [LapBin](https://bin.lapius7.com). Log in with Lapount and share code from the terminal | Go | `pnpm add -g @lapius/bin-cli` |
-| [ohatwikeeper-cli](https://github.com/Lapius7/ohatwikeeper-cli) | `ohax` | Official CLI for [おはツイKeeper](https://ohatwikeeper.com/cli). Shows profiles, trend graphs, awards, and more in full color | Go | `pnpm add -g @lapius/ohatwikeeper-cli` |
+| [ohatwikeeper-cli](https://github.com/ohatwikeeper/ohatwikeeper-cli) | `ohax` | Official CLI for [おはツイKeeper](https://ohatwikeeper.com/cli). Shows profiles, trend graphs, awards, and more in full color | Go | `pnpm add -g @ohatwikeeper/cli` |
 | [sca-cli](https://github.com/Lapius7/sca-cli) | `sca` | Terminal client for supabase-chat-app. Create rooms, chat, and see who is online | Go | `pnpm add -g @lapius/sca-cli` |
 | [clilap](https://github.com/Lapius7/clilap) | `clilap` | Client for [clilap.org](https://clilap.org). Weather, cheat sheets, DNS, hashes, and more from the terminal | Node.js | `pnpm add -g @lapius/clilap` |
 | [laping-lang](https://github.com/Lapius7/laping-lang) | `laping` | Laping (`.lp`): a minimal programming language implemented in C | C | `pnpm add -g @lapius/laping-lang` |
@@ -49,7 +49,7 @@
 | [cli-othello](https://github.com/Lapius7/cli-othello) | `othello` | Othello in the terminal. Play against an AI with 5 levels | Python | `pnpm add -g @lapius/cli-othello` |
 | [ytdlpdownloader](https://github.com/Lapius7/ytdlpdownloader) | `yd` | A video, audio, and image downloader that drives yt-dlp from an fzf menu (also non-YouTube sites, with gallery-dl integration) | zsh | `pnpm add -g @lapius/ytdlpdownloader` |
 | [dela-cli](https://github.com/Lapius7/dela-cli) | `dela` | A CLI that publishes a local port at https://xxxx.deploy.lapius7.com (own sish tunnel) | Go | `pnpm add -g @lapius/dela-cli` |
-| [repomix-auto](https://github.com/Lapius7/repomix-auto) | `repomix-auto` | A CLI that automates Repomix source map generation (freshness check, config creation, automatic exclusion of heavy files) | TypeScript | `pnpm add -g @lapius/repomix-auto` |
+| [repomix-auto](https://github.com/Lapius7/repomix-auto) | `repomix-auto` | A CLI that automates Repomix source map generation (freshness check, config creation, automatic exclusion of heavy files) | JavaScript | `pnpm add -g @lapius/repomix-auto` |
 | [x-archive-parser](https://github.com/Lapius7/x-archive-parser) | `x-archive-parser` | Converts an X (Twitter) archive into monthly Markdown / JSONL / CSV that a coding agent can grep | TypeScript | `pnpm add -g @lapius/x-archive-parser` |
 
 ## Web services and servers
@@ -75,7 +75,7 @@
 |---|---|---|
 | [portality](https://github.com/Lapius7/portality) | A Windows app that visualizes ports and the network for developers (Tauri + React) | TypeScript |
 | [coucou-repatch](https://github.com/Lapius7/coucou-repatch) | A fork of [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) for Windows / WSL. A small on-screen island that watches Claude Code work (permission prompts, edit diffs, plan limits) (Tauri) | TypeScript |
-| [ohatwikeeper-extension](https://github.com/Lapius7/ohatwikeeper-extension) | A Chrome extension for one-click registration and stats display for おはツイKeeper ([intro](https://ohatwikeeper.com/extensions/oneclick_add/)) | HTML |
+| [ohatwikeeper-extension](https://github.com/ohatwikeeper/ohatwikeeper-extension) | A Chrome extension for one-click registration and stats display for おはツイKeeper ([intro](https://ohatwikeeper.com/extensions/oneclick_add/)) | HTML |
 | [fixit-editor](https://github.com/Lapius7/fixit-editor) | Fixit Editor, a light code editor with a frosted-glass look (Tauri + React. [site](https://fixit-editor.lapius7.com)) | TypeScript |
 | [fixiteditor-bgimgchanger](https://github.com/Lapius7/fixiteditor-bgimgchanger) | An extension for Fixit Editor. Change the background image, opacity, blur, and display mode from the settings screen | JavaScript |
 | [dracon](https://github.com/Lapius7/dracon) | A file conversion app for Windows (Tauri + React + ffmpeg) | TypeScript |
