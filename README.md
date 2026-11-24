@@ -35,7 +35,7 @@
 | [bin-cli](https://github.com/Lapius7/bin-cli) | `bin` | Client for [LapBin](https://bin.lapius7.com). Log in with Lapount and share code from the terminal | Go | `pnpm add -g @lapius/bin-cli` |
 | [ohatwikeeper-cli](https://github.com/ohatwikeeper/ohatwikeeper-cli) | `ohax` | Official CLI for [おはツイKeeper](https://ohatwikeeper.com/cli). Shows profiles, trend graphs, awards, and more in full color | Go | `pnpm add -g @ohatwikeeper/cli` |
 | [sca-cli](https://github.com/Lapius7/sca-cli) | `sca` | Terminal client for supabase-chat-app. Create rooms, chat, and see who is online | Go | `pnpm add -g @lapius/sca-cli` |
-| [clilap](https://github.com/Lapius7/clilap) | `clilap` | Client for [clilap.org](https://clilap.org). Weather, cheat sheets, DNS, hashes, and more from the terminal | Node.js | `pnpm add -g @lapius/clilap` |
+| [clilap](https://github.com/Lapius7/clilap.org) | `clilap` | Client for [clilap.org](https://clilap.org). Weather, cheat sheets, DNS, hashes, and more from the terminal | Node.js | `pnpm add -g @lapius/clilap` |
 | [laping-lang](https://github.com/Lapius7/laping-lang) | `laping` | Laping (`.lp`): a minimal programming language implemented in C | C | `pnpm add -g @lapius/laping-lang` |
 | [password-gl](https://github.com/Lapius7/password-gl) | `password-gl` `pgl` | Password / passphrase generator with fine-grained conditions (needs Python 3.9+) | Python | `pnpm add -g @lapius/password-gl` |
 | [tsbuild](https://github.com/Lapius7/tsbuild) | `tsbuild` | Starts a Bun + TypeScript dev server with hot reload in one command (needs Python 3.9+) | Python | `pnpm add -g @lapius/tsbuild` |
@@ -52,7 +52,7 @@
 
 | Repository | Description | Language |
 |---|---|---|
-| [clilap](https://github.com/Lapius7/clilap) | Developer tools you can use with `curl clilap.org` (weather, cheat sheets, GitHub, IP, DNS, WHOIS, UUID, Base64, and more) | Python |
+| [clilap](https://github.com/Lapius7/clilap.org) | Developer tools you can use with `curl clilap.org` (weather, cheat sheets, GitHub, IP, DNS, WHOIS, UUID, Base64, and more) | Python |
 | [transit.lapius7.com](https://github.com/Lapius7/transit.lapius7.com) | A route search web app that uses the Transit API ([site](https://transit.lapius7.com)) | TypeScript |
 | [discordwidget-reloader](https://github.com/Lapius7/discordwidget-reloader) | A container that sends periodic PATCH requests to avoid the "waiting to sync" display of Discord Profile Widgets v2 | Python |
 | [lapacks.lapius7.com](https://github.com/Lapius7/lapacks.lapius7.com) | A documentation site for the @lapius packages (the CLIs lapacks manages). It shows Markdown as one page per package (Next.js) | TypeScript |
