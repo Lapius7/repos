@@ -60,6 +60,7 @@
 | [discord-messageapi-bot](https://github.com/Lapius7/discord-messageapi-bot) | A bot that saves the text and images posted to a Discord channel and returns them with a per-channel key | TypeScript |
 | [diserverbuilder-mcp](https://github.com/Lapius7/diserverbuilder-mcp) | An MCP server that lets an AI assistant (Claude and others) rebuild a Discord server (categories, channels, roles, permissions) through your own bot | TypeScript |
 | [gh.lapius7.com](https://github.com/Lapius7/gh.lapius7.com) | A GitHub activity dashboard. A dependency-free Node.js server caches GraphQL statistics and serves them ([site](https://gh.lapius7.com)) | JavaScript |
+| [imt.lapius7.com](https://github.com/Lapius7/imt.lapius7.com) | An infinite monkey theorem simulator. It generates one random character per second and waits for a full match of the text of Run, Melos! ([site](https://imt.lapius7.com)) | TypeScript |
 | [img-parameter.wks.lapius7.com](https://github.com/Lapius7/img-parameter.wks.lapius7.com) | A Cloudflare Workers API that resizes, crops, rotates, rounds, and converts images with URL parameters ([site](https://img-parameter.wks.lapius7.com)) | TypeScript |
 | [r-place-readme](https://github.com/Lapius7/r-place-readme) | A README with a shared pixel canvas everyone draws on. Click a cell of the image to change its color ([site](https://r-place-readme.wks.lapius7.com)) | TypeScript |
 | [ramen.lapius7.com](https://github.com/Lapius7/ramen.lapius7.com) | A ramen encyclopedia | TypeScript |

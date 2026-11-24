@@ -60,6 +60,7 @@
 | [discord-messageapi-bot](https://github.com/Lapius7/discord-messageapi-bot) | Discord のチャンネルに投稿された本文と画像を保存し、チャンネル専用のキーで取り出せるようにする Bot | TypeScript |
 | [diserverbuilder-mcp](https://github.com/Lapius7/diserverbuilder-mcp) | AI アシスタント（Claude など）が、自分の Bot 経由で Discord サーバー（カテゴリ・チャンネル・ロール・権限）を組み立て直せる MCP サーバー | TypeScript |
 | [gh.lapius7.com](https://github.com/Lapius7/gh.lapius7.com) | GitHub の活動ダッシュボード。依存なしの Node.js サーバーが GraphQL の統計をキャッシュして返す（[サイト](https://gh.lapius7.com)） | JavaScript |
+| [imt.lapius7.com](https://github.com/Lapius7/imt.lapius7.com) | 無限の猿定理シミュレータ。1秒に1文字ずつランダムに生成し、「走れメロス」の全文一致を待つ（[サイト](https://imt.lapius7.com)） | TypeScript |
 | [img-parameter.wks.lapius7.com](https://github.com/Lapius7/img-parameter.wks.lapius7.com) | URL パラメータで画像のリサイズ・切り抜き・回転・角丸・形式変換ができる Cloudflare Workers の API（[サイト](https://img-parameter.wks.lapius7.com)） | TypeScript |
 | [r-place-readme](https://github.com/Lapius7/r-place-readme) | みんなで描く共有ピクセルキャンバスの README。画像のマスをクリックして色を切り替える（[サイト](https://r-place-readme.wks.lapius7.com)） | TypeScript |
 | [ramen.lapius7.com](https://github.com/Lapius7/ramen.lapius7.com) | ラーメン図鑑 | TypeScript |
